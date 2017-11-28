@@ -1,0 +1,10 @@
+<view class="container">
+  <image class='logo' src='../images/logo.png'></image>
+  <text class="user">hello,iwen</text>
+  <navigator url='../news/news'>
+    <view class="goMPBtn">
+    <!-- <view class="goMPBtn" bind:tap='goNewsEvent'> -->
+      <text>欢迎来到小程序世界</text>
+    </view>
+  </navigator>
+</view>

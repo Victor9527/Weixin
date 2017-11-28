@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/movies/movies",
+    "pages/news/news",
+    "pages/news/news-details/news-details",
+    "pages/movies/movie-more/movie-more",
+    "pages/index/index",
+    "pages/movies/movie-detail",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/movie-detail/movie-detail-template/movie-detail-template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "green",
+    "navigationBarTitleText": "Victor",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "yellow",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "./pages/images/yuedu.png",
+        "selectedIconPath": "./pages/images/yuedu.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "./pages/images/diany.png",
+        "selectedIconPath": "./pages/images/diany.png"
+      }
+    ]
+  }
+}

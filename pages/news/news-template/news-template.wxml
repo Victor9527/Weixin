@@ -1,0 +1,25 @@
+<template name="newsTemplate">
+  <view class="news-article">
+    <view class="article-head">
+      <image class="article-head-icon" src="{{ headIcon }}"></image>
+      <text class="article-head-name">{{ headName }}</text>
+      <text class='artile-head-date'>{{ headDate }}</text>
+    </view>
+    <text class="article-title">{{ title }}</text>
+    <image class="article-img" src="{{ arcImg }}"></image>
+    <text class="article-desc">{{ arcDesc }}</text>
+    <view class="article-like">
+      <image class="article-like-icon" src="../images/sc.png"></image>
+      <text class="article-like-number">{{ comment }}</text>
+      <image class="article-like-icon" src="../images/fx.png"></image>
+      <text class="article-like-number">{{ share }}</text>
+     
+    </view>
+  </view>
+</template>
+<template name="newsComments">
+  <text class="nick">{{nick}}</text>
+  <text class="details">{{details}}</text>
+   <text class="timer">{{time}}</text>
+
+</template>

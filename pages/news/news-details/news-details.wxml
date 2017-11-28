@@ -1,0 +1,36 @@
+<!-- 引用 -->
+
+
+
+
+<import src="../news-template/news-template.wxml"/>
+
+
+
+<view class="news-detail-container">
+  <image class="head-img" src="{{ newsData.arcImg }}"></image>
+  <view class="author-time">
+    <image class="author-avatar" src="{{ newsData.headIcon }}"></image>
+    <text class="author-name">{{ newsData.headName }}</text>
+    <text class="const-text">发表于</text>
+    <text class="time">{{ newsData.headDate }}</text>
+  </view>
+  <text class="title">{{ newsData.title }}</text>
+  <view class="tool">
+   <view class="circle-img">
+   <image src="{{item?'../../images/sch.png':'../../images/sc.png'}}" bind:tap="collectEvent"></image>
+   <image class="share-img" src="../../images/fx.png" bind:tap="menuEvent"></image>
+  </view>
+  <view class="horizon"></view>
+  </view>
+  <text class="detail">{{ newsData.content }}</text>
+    <block wx:for="{{ newsNick }}" wx:for-item="item" wx:for-index="index" wx:key="index">
+
+      <template is="newsComments" data="{{ ...item }}">
+       
+      </template>
+
+    </block>
+
+  
+</view>

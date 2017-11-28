@@ -1,0 +1,81 @@
+/*列表样式  */
+
+.news-article{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  background-color: #fff;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.news-article .article-head{
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.news-article .article-head .article-head-icon{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.news-article .article-head .article-head-name{
+  margin-left: 20rpx;
+}
+
+.news-article .article-head .artile-head-date{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  font-size: 26rpx;
+}
+
+.news-article .article-title{
+  font-size: 34rpx;
+  font-weight: 700;
+  color:#333;
+  margin-bottom: 10px;
+}
+
+.news-article .article-img{
+  margin-left: 16px;
+  width: 100%;
+  height: 340rpx;
+  margin: auto 0;
+  margin-bottom: 15px;
+}
+
+.news-article .article-desc{
+    color:#666;
+    font-size: 26rpx;
+    margin-bottom: 20rpx;
+    letter-spacing: 2rpx;
+    line-height: 40rpx;
+}
+
+.news-article .article-like{
+  font-size: 13px;
+  flex-direction: row;
+  line-height: 16px;
+}
+
+.news-article .article-like .article-like-icon{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.news-article .article-like  .article-like-number{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.timer{
+  float: right;
+  margin-left: 500rpx;
+}

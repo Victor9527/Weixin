@@ -1,0 +1,10 @@
+<template name="starTemplate">
+  <view class="stars-container">
+    <view class="stars" >
+      <block wx:for="{{ stars }}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <image src="{{ item ? 'http://www.wwtliu.com/sxtstu/php/star.png' : 'http://www.wwtliu.com/sxtstu/php/chat.png' }}"></image>
+      </block>
+    </view>
+    <text class="star-score">{{ average }}</text>
+  </view>
+</template>>
